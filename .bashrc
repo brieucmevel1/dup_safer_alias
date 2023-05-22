@@ -26,6 +26,11 @@ fi
 
 unset rc
 
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias ln='ln -i'
+
 function prank_alias() {
     local cmd="$1"
     shift
@@ -38,6 +43,7 @@ alias pwd='prank_alias "pwd"'
 alias cp='prank_alias "cp"'
 alias mv='prank_alias "mv"'
 alias rm='prank_alias "rm"'
+alias ln='prank_alias "ln"'
 alias mkdir='prank_alias "mkdir"'
 alias touch='prank_alias "touch"'
 alias cat='prank_alias "cat"'
@@ -53,3 +59,4 @@ alias nano='prank_command nano'
 alias emacs='prank_command emacs'
 alias clear='prank_command clear'
 alias man='prank_command man'
+
