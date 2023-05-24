@@ -6,8 +6,8 @@ The `dup_safer_alias` script enhances safety when executing potentially dangerou
 
 1. Open your terminal and cpy this command:
 
-   ```emacs ~/.bashrc\n
+   emacs ~/.bashrc\n
    ctrl-y
    or 
-   ```code ~/.bashrc\n
+   code ~/.bashrc\n
    ctrl-v
